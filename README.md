@@ -1,4 +1,4 @@
-# Mixed-Messages-Halokllr-Alia
+# Mixed-Messages
 Codecademy Mixed Messages Project
 
 ---
