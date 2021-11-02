@@ -26,7 +26,7 @@ For this project, you will build a message generator program. Every time a user 
     - Decide on what types of messages you want your program to output.
 
 - ## __Create script and run it locally__
-    - On your computer, create a JaaScript file to write your code in.  Make sure you are able to run your script locaaly in Node.
+    - On your computer, create a JaaScript file to write your code in.  Make sure you are able to run your script locally in Node.
 
 - ## __Set up version control__
     - Set up Git tracking in your directory and add and commit changes as you make them.
@@ -35,7 +35,7 @@ For this project, you will build a message generator program. Every time a user 
     - Combine the different parts of your program so the random messages are selected, combined, and then displayed to the user each time they run the program.
 
 - ## __Next Steps__
-    - You're welcome to expand your program beyond these proect tasks and get creative!
+    - You're welcome to expand your program beyond these project tasks and get creative!
 
-- ## __Store messsage components__
+- ## __Store message components__
     - Decide how to store all of the message components for your game.
