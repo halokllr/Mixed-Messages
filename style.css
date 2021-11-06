@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: darkslategray;
+}
+
+header {
+    background-color: rgb(91, 164, 173);
+    padding: 20px 0;
+    width: 100%;
+    z-index: 10;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: white
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    border-bottom: 1px solid #d6f7ff;
+}
+
+.fortuneBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #d6f7ff;
+    border-radius: 5%;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    transform: translate(-50%, 800%);
+    background: rgb(91, 164, 173);
+    border: none;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+#message {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 5;
+}

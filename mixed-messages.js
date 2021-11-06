@@ -1,9 +1,13 @@
-const messagesOne = ['Beginning of string 1', 'Beginning of string 2', 'Beginning of string 3'];
-const messagesTwo = ['End of string 1', 'End of string 2', 'End of string 3'];
-const messagesThree = ['End of string 1', 'End of string 2', 'End of string 3']
 
-const messageFunctions = [messagesOne, m]
+const messagesOne = ['If you believe it ', 'If only ', 'Really though, '];
+const messagesTwo = ['sometimes it ', 'rarely it ', 'definitely it '];
+const messagesThree = ['happens like that', 'goes that way', 'do be like that']
+
+
 let finalString = [];
+
+let messageButton = document.getElementById('messageButton');
+let message = document.getElementById('message');
 
 const getMessageOne = () => {
     msgLength = messagesOne.length;
@@ -23,13 +27,20 @@ const getMessageThree = () => {
     finalString.push(messagesThree[returnedMsg]);
 };
 
-
-
 const setFinalString = () => {
+    finalString = [];
     getMessageOne();
     getMessageTwo();
     getMessageThree();
     return (finalString.join(" ") + ".");
 };
 
-console.log(setFinalString());
+const returnMessage = () => {
+    let string = setFinalString();
+    console.log(string)
+    message.innerHTML = ''
+    message.innerHTML = string;
+}
+
+
+messageButton.addEventListener('click', returnMessage);
